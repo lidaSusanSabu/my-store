@@ -1,107 +1,15 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-success d-flex fixed-top ">
-  <a class="navbar-brand text-light" href="#">My Store</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
-    <div class="navbar-nav  ">
-      <a class="nav-item nav-link active text-light" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link text-light" href="#">Products</a>
-      <a class="nav-item nav-link text-light" href="#">Checkout</a>
-
-    </div>
-  </div>
-</nav>
-<div class="container  wrapper">
-  <div class="input-group md-form form-sm form-2 pl-0">
-    <input class="form-control my-0 py-1  border-success" type="text" placeholder="Search" aria-label="Search">
-    <div class="input-group-append">
-      <span class="input-group-text lime lighten-2" id="basic-text1"><img src="https://img.icons8.com/material/24/000000/search--v1.png"> </span>
-    </div>
-  </div>
-</div>
+<app-header></app-header>
 <div class="container">
-  <div class="row">
-    <div class="col-4">
-      <div class="card twenty">
-        <img class="card-img-top"
-          src="https://www.nickygold.com/i/2019/06/creative-kitchen-gardening-systems-herb-plants-indoor-ideas-vertical-self-garden-k-outstanding-design-planters-pots-kit-algreen-wall-living-planter.jpg"
-          alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">vertical garden</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-success">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-4">
-      <div class="card twenty">
-        <img class="card-img-top" src="https://d3d71ba2asa5oz.cloudfront.net/12029281/images/pg1182_zu01.jpg"
-          alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">lavender combo</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-success">Go somewhere</a>
-        </div>
-      </div>
-    </div>
+    <app-search></app-search>
 
-    <div class="col-4">
-      <div class="card twenty">
-        <img class="card-img-top"
-          src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.artificialplantsandtrees.com%2Fmm5%2Fgraphics%2F00000002%2FNEA1048-ZM-1.jpg&f=1&nofb=1"
-          alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">abc plant</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-success">Go somewhere</a>
-        </div>
-      </div>
+    <div class="row">
+        <app-product class="col-4" ></app-product>
+        
     </div>
-    <div class="col-4">
-      <div class="card twenty ">
-        <img class="card-img-top"
-          src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.artificialplantsandtrees.com%2Fmm5%2Fgraphics%2F00000002%2FNEA1153-ZM-1.jpg&f=1&nofb=1  "
-          alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">duck plant</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-success">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-4">
-      <div class="card twenty">
-        <img class="card-img-top"
-          src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.artificialplantsandtrees.com%2Fmm5%2Fgraphics%2F00000002%2FNEA1090-ZM-1.jpg&f=1&nofb=1"
-          alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">forest plant</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-success">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-4">
-      <div class="card twenty">
-        <img class="card-img-top" src="http://www.dacoromania.org/upload/o/19/197703_hanging-plant-png.jpg"
-          alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">hanging plant</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="btn btn-success">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-  </div>
+        
+
+
+      
 </div>
-<footer class="bg-success text-center text-light twenty">
-  <h5>copy right&copy;Lida</h5>
-</footer>
+
+<app-footer></app-footer>
