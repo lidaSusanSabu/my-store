@@ -1,2 +1,5 @@
-
+.wrapper{
+    margin-top: 80px;
+    min-height: calc(130vh - 170px);
+}
 

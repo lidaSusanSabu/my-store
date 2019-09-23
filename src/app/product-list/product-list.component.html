@@ -1,1 +1,8 @@
-<p>product-list works!</p>
+
+    <app-search></app-search>
+    <div class="row">
+        <app-product *ngFor="let item of products" class="col-4" [prod]="item"></app-product> 
+              
+
+    </div>    
+
