@@ -1,5 +1,5 @@
-
-    <app-search></app-search>
+    <h1 >Show search item here:{{value}}</h1>
+    <app-search (newPushEvent)="newPushMessage($event)"></app-search>
     <div class="row">
         <app-product *ngFor="let item of products" class="col-4" [prod]="item"></app-product> 
               

@@ -13,6 +13,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { AddProductComponent } from './add-product/add-product.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CheckoutComponent } from './checkout/checkout.component';
     SearchComponent,
     ProductListComponent,
     ProductDetailsComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    AddProductComponent
   ],
   imports: [
     BrowserModule,

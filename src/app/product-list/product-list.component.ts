@@ -17,8 +17,14 @@ export class ProductListComponent implements OnInit {
     } );
 
   }
+  value;
 
   ngOnInit() {
+  }
+  newPushMessage($event) {
+    console.log('hey' + $event);
+    this.value = $event;
+
   }
 
 }
